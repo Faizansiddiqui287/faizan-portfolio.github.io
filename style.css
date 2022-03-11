@@ -179,9 +179,9 @@ section .tittle::after{
 } */
 
 
-.about .tittle::after{
+/* .about .tittle::after{
     content: "Who I am";
-}
+} */
 
 .about .about_container .left{
     width: 45%;
@@ -360,10 +360,10 @@ section .tittle::after{
     width: 80%;
 }
 .skills .skills-content .right .css::before{
-    width: 60%;
+    width: 75%;
 }
 .skills .skills-content .right .javascript::before{
-    width: 65%;
+    width: 70%;
 }
 
 /* -----------Contact Section CSS starts here---------- */
