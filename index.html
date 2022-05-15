@@ -57,7 +57,9 @@
                 </div>
                 <div class="col right">
                     <div class="text">I'm Faizan <span>Front-End Developer</span></div>
-                    <p>I've worked hard in my education and now I'm ready to implement my knowledege to practice with front-end technologies. I have a small learning curve that leads to efficient time management. I prefer result oriented approach.
+                    <p>I've worked hard in my education and now I'm ready to implement my knowledege to practice with
+                        front-end technologies. I have a small learning curve that leads to efficient time management. I
+                        prefer result oriented approach.
 
                     </p>
                     <a href="./Faizan Resume (2).pdf" download="faizan_resume">Download Resume</a>
@@ -71,7 +73,7 @@
 
     <div class="scroll-up-btn">
         <a href="#"><i class="fas fa-angle-up"></i></a>
-      </div>
+    </div>
 
     <!---------------- education section-------------------------- -->
 
@@ -113,7 +115,9 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experience</div>
-                    <p>During college, I have created many mini projects like To Do List, Portfolio website, Tic Tac Toe, Form validation using JavaScript etc. Each day I learn new techniques to improvise my present skills and develop new skills. I am well versed in HTML, CSS and JavaScript.</p>
+                    <p>During college, I have created many mini projects like To Do List, Portfolio website, Tic Tac
+                        Toe, Form validation using JavaScript etc. Each day I learn new techniques to improvise my
+                        present skills and develop new skills. I am well versed in HTML, CSS and JavaScript.</p>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -151,7 +155,7 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in touch</div>
-                 
+
                     <div class="row">
                         <i class="fas fa-user"></i>
                         <div class="info">
@@ -176,24 +180,25 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="javascript:sendmail()" method="post">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Enter your name" required>
+                                <input type="text" name="Name" id="name1" placeholder="Enter your name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Enter your email" required>
+                                <input type="email" name="Email" id="email1" placeholder="Enter your email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" id="subject1" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Describe here...." required></textarea>
+                            <textarea cols="30" rows="10" id="describe1" placeholder="Describe here...."
+                                required></textarea>
                         </div>
 
                         <div class="button">
-                            <button type="submit">Send Message</button>
+                            <button type="submit" id="formBtn" onclick="myFun()">Send Message</button>
                         </div>
 
                     </form>
@@ -205,9 +210,11 @@
     <!-- ------------Footer section starts from here---------- -->
 
     <footer>
-        <span>Created By <a href="#">Faizan Siddiqui</a> | <span class="far fa-copyright"></span>2022 All rights reserved</span>
+        <span>Created By <a href="#">Faizan Siddiqui</a> | <span class="far fa-copyright"></span>2022 All rights
+            reserved</span>
     </footer>
     <script src="script.js"></script>
+
 </body>
 
 </html>
